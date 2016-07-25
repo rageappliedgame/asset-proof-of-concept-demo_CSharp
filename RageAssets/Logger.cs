@@ -37,11 +37,11 @@ namespace AssetPackage
         {
             //! See what bridge code to call, Asset, Asset Manager or just expose Default behavior (if any).
             // 
-            ILogger logger = getInterface<ILogger>();
+            ILog logger = getInterface<ILog>();
             if (logger != null)
             {
                 // Use a supplied bridge.
-                logger.doLog(msg);
+                logger.Log(Severity.Information, msg);
             }
             else
             {

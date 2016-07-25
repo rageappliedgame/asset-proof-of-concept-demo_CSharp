@@ -45,7 +45,7 @@ namespace asset_proof_of_concept_demo_CSharp
         /// <summary>
         /// The first bridge.
         /// </summary>
-        static Bridge bridge1 = new Bridge("global bridge: ");
+        static Bridge bridge1 = new Bridge();
 
         /// <summary>
         /// The second bridge.
@@ -136,8 +136,6 @@ namespace asset_proof_of_concept_demo_CSharp
 
             asset3 = new Logger();
             asset4 = new Logger();
-
-            bridge2.Prefix = "private bridge: ";
 
             // For Unity3D we need a bridge as Console.WriteLine is not supported and we have to use Debug.log() instead!
             asset3.Bridge = bridge2;

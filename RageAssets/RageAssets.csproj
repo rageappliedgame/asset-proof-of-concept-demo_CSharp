@@ -39,7 +39,6 @@
     <Compile Include="Asset.cs" />
     <Compile Include="AssetSettings.cs" />
     <Compile Include="IDataArchive.cs" />
-    <Compile Include="ILogger.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

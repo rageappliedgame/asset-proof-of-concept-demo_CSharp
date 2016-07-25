@@ -44,9 +44,6 @@
     <Compile Include="..\RageAssets\IDataArchive.cs">
       <Link>IDataArchive.cs</Link>
     </Compile>
-    <Compile Include="..\RageAssets\ILogger.cs">
-      <Link>ILogger.cs</Link>
-    </Compile>
     <Compile Include="..\RageAssets\Logger.cs">
       <Link>Logger.cs</Link>
     </Compile>
